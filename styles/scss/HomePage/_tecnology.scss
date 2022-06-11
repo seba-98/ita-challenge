@@ -1,0 +1,62 @@
+@import '../variable.scss';
+.tecno{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100% !important;
+    justify-content: space-between;
+}
+
+.tecno-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 80px;
+}
+.tecno-content img{
+    padding: 20px 0;
+    width: 270px;
+}
+.tecno-content span{
+    color: $info-color;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.tecno-content h3{
+    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 500;
+}
+.tecno-content p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.tecno-image-container{
+    height: 100%;
+    width: 60%;
+}
+.art-tecno-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    text-decoration: none;
+    color: $info-color;
+    font-size: 34px;
+    font-weight: 600;
+}
+.tecno-img{
+    background-image: url('../../../public/Recurso 3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-position-x: right;
+    
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
